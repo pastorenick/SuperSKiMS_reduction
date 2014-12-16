@@ -14,3 +14,7 @@ slits.
 #
 
 v1.0 16/12/2014 - code works. 
+
+
+Notes:
+  - the velocities in the output object are already heliocentric corrected
