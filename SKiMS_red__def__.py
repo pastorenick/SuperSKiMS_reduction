@@ -620,7 +620,7 @@ def run_pPXF(Deimos_mask, templates='deimos', cutRegion = [8450, 8750]):
       #
       ii.vel, ii.sigma, ii.h3, ii.h4 = pp4.sol
       ii.ppxf_obj = pp4
-      ii.wv_bestfit = numpy.e**loglam1
+      ii.wv_bestfit = numpy.e**logLam1
       #
       pp4_MC = runMC(pp4, dv, velscale, pp2.sol[0:2], nReal=100, quiet=True)
       ii.errvel, ii.errsigma, ii.errh3, ii.errh4 = extractErrorKin(pp4_MC)
